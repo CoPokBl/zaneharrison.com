@@ -1,5 +1,3 @@
-# Zane Harrison (AKA CoPokBl)
-Website coming soon
+# My Personal Website
 
-Links:  
-[- GitHub](https://github.com/CoPokBl/)
+[It's live here](https://zaneharrison.com)
