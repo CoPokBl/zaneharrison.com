@@ -9,36 +9,24 @@
 
   <link rel="canonical" href="https://zaneharrison.com/">
 
-  <!-- Bootstrap core CSS -->
+  <!-- Imports -->
   <link href="./assets/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <script type="text/javascript" src="./assets/js/nav.js"></script>
+  <script type="text/javascript" src="assets/js/nav_code.js"></script>
   <link href="./assets/css/styling.css" rel="stylesheet">
+  <script src="./assets/js/global.js"></script>
+
+  <!-- Tell nav injector where root is -->
+  <meta name="ptr" id="pathToRoot" content="./">
+
+
 </head>
 
 <body>
 
   <br>
 
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand" href="#"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./projects/">Projects</a>
-      </li>
-    </ul>
-    <form class="form-inline mt-2 mt-md-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" id="searchInput">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="searchButtonClick();">Search</button>
-    </form>
-  </div>
-  </nav>
+  <!-- Navbar will be injected by script -->
+  <div id="site-nav"></div>
 
   <main role="main" class="container">
 
@@ -96,4 +84,8 @@
 
   </main>
 </body>
+
+<!-- Some Scripts -->
+<script src="./assets/js/nav.js"></script>
+
 </html>

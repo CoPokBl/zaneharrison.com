@@ -1,7 +1,13 @@
+/*
+
+This does fancy stuff in the projects page
+
+*/
+
 
 // Functions
 function httpGetAsync(theUrl, verb, callback) {
-  var xmlHttp = new XMLHttpRequest();
+  const xmlHttp = new XMLHttpRequest();
   xmlHttp.onreadystatechange = function() {
     if (xmlHttp.readyState != 4) {
       return;
@@ -14,7 +20,7 @@ function httpGetAsync(theUrl, verb, callback) {
 
 
 // Load HomeworkTrackerServer status
-httpGetAsync("http://homeworktrack.serble.net:9898", "GET", function callback(responseText, status) {
+httpGetAsync("https://homeworktrack.serble.net:9897", "GET", function callback(responseText, status) {
   if (status == 200) {
     // Ok
     document.getElementById('homeworkServerStatus').innerHTML = "Online";
