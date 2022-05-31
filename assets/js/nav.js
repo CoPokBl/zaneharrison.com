@@ -46,7 +46,7 @@ if (nav == null) {
   </button>
   <div class="collapse navbar-collapse" id="navbarCollapse">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="%%root%%">Home</a>
       </li>
       <li class="nav-item">
