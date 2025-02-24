@@ -41,7 +41,7 @@ function checkApi(elementId, url) {
 
 
 // Load HomeworkTrackerServer status
-checkApi("homeworkServerStatus", "https://homeworktrack.serble.net:9897/api/status");
+checkApi("homeworkServerStatus", "https://homeworktrack.serble.net:9897/api/");
 checkApi("serbleApiStatus", "https://api.serble.net/swagger/index.html");
 </script>
 
