@@ -83,18 +83,34 @@ checkApi("serbleApiStatus", "https://api.serble.net/swagger/index.html");
           </p>
         </project>
 
-        <project title="Democracy Discord Bot" link_name="GitHub" link="https://github.com/CoPokBl/DemocracyBot" img_url="/projects/no_icon.png">
-          <p>
-            The democracy bot is designed to have one instance per guild. It allows users to vote on who should get guild permissions to
-            do things like add/remove channels and add/remove roles.
-          </p>
-        </project>
-
-        <project title="EsTools" link_name="GitHub" link="https://github.com/CoPokBl/EsTools" img_url="/projects/estools.png">
+        <project title="EsTools" link_name="Website" link="https://estools.net/overview.html" img_url="/projects/estools.png">
           <p>
             A general purpose Minecraft Spigot/CraftBukkit plugin inspired by EssentialsX but is designed to not override any default Minecraft commands
             and is more lightweight and simple. It supports every version from 1.0 to 1.21 which is every single downloadable Bukkit version. This is my
             project but had a lot of work done by <a href="https://github.com/Calcilore">a friend of mine</a>.
+          </p>
+        </project>
+
+        <project title="Mangolise" link_name="GitHub" link="https://github.com/Mangolise" img_url="/projects/mangolise.png">
+          <p>
+            Mangolise is a development group consisting of me and 3 friends that develops Minestom libraries.
+            We have made an anti cheat, a whole catalog of Minigames and some other things.
+          </p>
+        </project>
+
+        <project title="Link Shortener" link_name="Website" link="https://srbl.cc" img_url="/projects/serble_logo.png">
+          <p>
+            This is a link shortener that I made as part of the Serble project.
+            It is a very simple link shortener that allows you to shorten links and give them custom
+            names if you'd like. It is hosted through CloudFlare workers for 100% uptime and edge deployment and uses
+            CloudFlare's KV store for storage.
+          </p>
+        </project>
+
+        <project title="Democracy Discord Bot" link_name="GitHub" link="https://github.com/CoPokBl/DemocracyBot" img_url="/projects/no_icon.png">
+          <p>
+            The democracy bot is designed to have one instance per guild. It allows users to vote on who should get guild permissions to
+            do things like add/remove channels and add/remove roles.
           </p>
         </project>
 
@@ -129,5 +145,58 @@ checkApi("serbleApiStatus", "https://api.serble.net/swagger/index.html");
   </main>
 </template>
 
-<style scoped>
+<style>
+.csharp {
+  background-color: #9c19d2;
+  outline-color: #7a1ac1;
+  color: #340d5d;
+}
+
+.java {
+  background-color: #e7a113;
+  outline-color: #c7800d;
+  color: #5d3b07;
+}
+
+.gdscript {
+  background-color: #36aca4;
+  outline-color: #319299;
+  color: #12333b;
+}
+
+.cpp {
+  background-color: #1d7fb1;
+  outline-color: #1d61a5;
+  color: #0d274d;
+}
+
+.python {
+  background-color: #40aa59;
+  outline-color: #348937;
+  color: #26521f;
+}
+
+.shell {
+  background-color: #b02a37;
+  outline-color: #791e33;
+  color: #4d1325;
+}
+
+.batch {
+  background-color: #333030;
+  outline-color: #212121;
+  color: #797070;
+}
+
+.js {
+  background-color: #d6c542;
+  outline-color: #be9c41;
+  color: #69570f;
+}
+
+.sql {
+  background-color: #004fb6;
+  outline-color: #02408c;
+  color: #002260;
+}
 </style>

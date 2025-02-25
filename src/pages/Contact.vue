@@ -10,6 +10,15 @@
     <li>Email: <a href="mailto:copokbl@serble.net">copokbl@serble.net</a></li>
     <li>Discord: @copokbl</li>
   </ul>
+
+  <p>
+    You can also check me out on:
+  </p>
+
+  <ul>
+    <li>GitHub: <a href="https://github.com/CoPokBl">CoPokBl</a></li>
+    <li>Steam: <a href="https://steamcommunity.com/id/CoPokBl/">CoPokBl</a></li>
+  </ul>
 </template>
 
 <style scoped></style>
